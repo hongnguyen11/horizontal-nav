@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #dbd6cf;
+  margin: 0;
+
+}
+
+header {
+  background-color: #79756f;
+  padding: 0.6em;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-color: #595652;
+
+
+}
+
+h1 {
+  font-family: "Bevan";
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  color: #fff;
+  list-style-type: none;
+  font-family: sans-serif;
+  padding-left: 0;
+  margin: .3em;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #713837;
+  border-radius: 2px;
+  text-align: center;
+  margin: 0 0 .3em 0;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  background-color: #f33;
+}
